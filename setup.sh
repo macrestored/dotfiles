@@ -36,7 +36,7 @@ sudo apt install -y nodejs
 npm install --global yarn
 
 # install node packages
-yarn global add vercel nextjs
+yarn global add vercel nextjs react react-dom
 
 # git config
 git config --global user.name 'Mac'
