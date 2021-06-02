@@ -25,6 +25,8 @@ cd scp
 mv SourceCodePro-regular.otf > ~/.local/share/fonts
 mv SourceCodePro-Light.otf > ~/.local/share/fonts
 mv SourceCodePro-Bold.otf > ~/.local/share/fonts
+rm -rf scp scp.zip
+cd ~
 
 # install nodejs 
 curl -fsSL https://deb.nodesource.com/setup_16.x | bash -
@@ -42,3 +44,6 @@ git config --global user.email '65713232+machooper@users.noreply.github.com'
 
 # ssh
 ssh-keygen -q -t rsa -N ''
+
+# create folder structure
+mkdir docs
