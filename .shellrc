@@ -1,0 +1,20 @@
+export PATH=~/.local/bin:$PATH
+export LANG=en_US.UTF-8
+
+PS1='> '
+
+alias v='vim'
+alias v.='vim .'
+alias sv='sudo vim'
+alias sv.='sudo vim .'
+
+alias gac='git add .; git commit -m '
+alias gp='git push -u origin '
+alias gpl='git pull'
+alias gcl='git clone '
+alias gb='git branch '
+alias gc='git checkout '
+alias gbv='git branch -v'
+alias gbd='git branch -d'
+
+setxkbmap -option caps:escape
